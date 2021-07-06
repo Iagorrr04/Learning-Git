@@ -7,3 +7,15 @@
 -"commit" to save files in Git.  
 -"push" to upload Git commits.  
 -"pull" to download the changes in a local machine.  
+-"ls - la" to list every file or folder in the folder.  
+-"git status" to show files that have to be commited.  
+-"git add ." to track all files in the respective folder.  
+-"git add <file name>"  to track an specific file.  
+-Is necessary to "add" a file before commit it, because git has track the changes  
+-"git commit -m "message" -m "descipition" " to commit the files, and create the message and description about the changes, it only creates the commit and saves in the local machine.  
+-ssh-keygen -t rsa -b 4096 -C "email", "-t" stands for the type of encryption, "-b" for the strengh, and after "-C" is necessary to enter the GitHUb email.  
+-"keyname.pub", is the public key, can be shared on github, the other key is private.  
+-In the respective folder type "cat sshkeyname.pub" to show the key "code".  
+-Is also necessary to add a the ssh to the agent, and to the GitHub account.  
+-After the SSSHkey is set, run "git push origin main"  
+-
