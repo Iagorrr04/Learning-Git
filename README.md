@@ -40,5 +40,11 @@
 -When stucked in the terminal just press "q".  
 -In a feature branch just after "push" the branch, will get a error message, so copy the given command.  
 -PR = Pull request, that means a request to have the code pulled into another branch.  
-    ~git pull //To donwload the file with branch  
+    ~ git pull //To donwload the file with branch  
+-After merge a branch is likey that we don't use it so again, so let's delete it.
+~ git branch -D <name of the branch>
+~ git commit -am "message" //To add the changes of a modified files, doesn't work for new files
+
+### Git merge conflict
+-Happens when we try to merge two branchs that have changes in the same line...
     
