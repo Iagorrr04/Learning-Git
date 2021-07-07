@@ -38,5 +38,7 @@
     ~ git merge <name of the branch> //To merge the branchs
 -Before switch the branch is necessary commit the changes.
 -When stucked in the terminal just press "q".  
--In a feature branch just after "push" the branch, will get a error message, so copy the given command.
--PR = Pull request, that means a request to have the code pulled into another branch.
+-In a feature branch just after "push" the branch, will get a error message, so copy the given command.  
+-PR = Pull request, that means a request to have the code pulled into another branch.  
+    ~git pull //To donwload the file with branch  
+    
