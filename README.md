@@ -33,6 +33,9 @@
 -The "*" indicates the current branch that u are working.
     ~ git checkout //To switch between branchs.
     ~ git checkout -b branchname //To create and switch to the new branch.
+-A change made in a feature branch don't appear in the main/master branch.
+    ~ git diff <name of the branch> //To check the differences betwenn the current branch and the spcified branch
+-Before switch the branch is necessary commit the changes.
     
 
     Ignore this line, testing feature function
