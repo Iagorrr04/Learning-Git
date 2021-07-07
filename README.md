@@ -18,4 +18,21 @@
 -In the respective folder type "cat sshkeyname.pub" to show the key "code".  
 -Is also necessary to add a the ssh to the agent, and to the GitHub account.  
 -After the SSSHkey is set, run "git push origin main"  
--
+    ~ git init //To turn a normal folder in a repository for GitHub  
+    ~ clear //To clear the bash terminal  
+    ~ cls //To clear the cmd terminal  
+    ~ clr //Also clear the cmd terminal  
+    ~ git remote add origin <link> //To give the reference about the repository.
+    ~ git remote -v //To show any remote repository that is connected.
+-After that and run the "git add" and "git commit" we can finally run "git push orign master".  
+## Git Branching  
+-Master branch.
+-Feature branch are useful to work with a group.
+-Hot fix branch are usually used to fix bugs  
+    ~ git branch //To see the current branchs
+-The "*" indicates the current branch that u are working.
+    ~ git checkout //To switch between branchs.
+    ~ git checkout -b branchname //To create and switch to the new branch.
+    
+
+    Ignore this line, testing feature function
