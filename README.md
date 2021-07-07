@@ -46,5 +46,5 @@
 ~ git commit -am "message" //To add the changes of a modified files, doesn't work for new files
 
 ### Git merge conflict
-
+-Happens when we try to merge two branchs that have changes in the same line...
     
