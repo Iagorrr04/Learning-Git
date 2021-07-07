@@ -47,4 +47,6 @@
 
 ### Git merge conflict
 -Happens when we try to merge two branchs that have changes in the same line...
+-If we try to merge two files in conflit the VS code will show us the conflict it self, then just fix it and then commit
     
+### Undoing git
