@@ -26,17 +26,17 @@
     ~ git remote -v //To show any remote repository that is connected.
 -After that and run the "git add" and "git commit" we can finally run "git push orign master".  
 ## Git Branching  
--Master branch.
--Feature branch are useful to work with a group.
+-Master branch.  
+-Feature branch are useful to work with a group.  
 -Hot fix branch are usually used to fix bugs  
-    ~ git branch //To see the current branchs
--The "*" indicates the current branch that u are working.
-    ~ git checkout //To switch between branchs.
-    ~ git checkout -b branchname //To create and switch to the new branch.
--A change made in a feature branch don't appear in the main/master branch.
-    ~ git diff <name of the branch> //To check the differences betwenn the current branch and the spcified branch
-    ~ git merge <name of the branch> //To merge the branchs
--Before switch the branch is necessary commit the changes.
+    ~ git branch //To see the current branchs  
+-The "*" indicates the current branch that u are working.  
+    ~ git checkout //To switch between branchs.  
+    ~ git checkout -b branchname //To create and switch to the new branch.  
+-A change made in a feature branch don't appear in the main/master branch.  
+    ~ git diff <name of the branch> //To check the differences betwenn the current branch and the spcified branch  
+    ~ git merge <name of the branch> //To merge the branchs  
+-Before switch the branch is necessary commit the changes.  
 -When stucked in the terminal just press "q".  
 -In a feature branch just after "push" the branch, will get a error message, so copy the given command.  
 -PR = Pull request, that means a request to have the code pulled into another branch.  
