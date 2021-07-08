@@ -2,7 +2,9 @@
 
 ## MD formatation.
 -"#" for a main title.  
--"  " double space to break line.  
+-" " double space to break line.
+-Add a line and a space above some text to create a "window".
+
 
 ## Basic Git commands
 -"clone" to bring files to the local machine.  
@@ -16,6 +18,7 @@
     ~ git add  //To track all files in the respective folder.
     ~ git add <file name>  //To track an specific file.
 -Is necessary to "add" a file before commit it, because git needs to track the changes.  
+ 
     ~git commit -m "message" -m "descipition"  //To commit the files, and create the message and description about the changes, it only creates the commit and saves in the local machine. 
     ~ clear //To clear the bash terminal.  
     ~ clr //Also clear the cmd terminal.
@@ -29,6 +32,7 @@
 -After the SSSHkey is set, run "git push origin main".
 
 ## Creating a repository locally.
+ 
     ~ git init //To turn a normal folder in a repository for GitHub.  
     ~ git remote add origin <link> //To give the reference about the repository.
     ~ git remote -v //To show any remote repository that is connected.
@@ -38,21 +42,26 @@
 -Master branch, is the main branch that contains the main version of the code.
 -Feature branch, are useful to work with a group.  
 -Hot fix branch, just like a feature branch but with a single commit.  
+ 
     ~ git branch //To see the current branchs  
 -The "*" indicates the current branch that you are working.  
+ 
     ~ git checkout <branch name>//To switch between branchs.  
     ~ git checkout -b <new branch name> //To create and switch to the new branch.  
--A change made in a feature branch don't appear in the main/master branch, is just like copy a folder and   
+-A change made in a feature branch don't appear in the main/master branch, is just like copy a folder and.  
+  
     ~ git diff <name of the branch> //To check the differences betwenn the current branch and the spcified branch  
     ~ git merge <name of the branch> //To merge the branchs  
 -Before switch the branch is necessary commit the changes, or the current branch changes will be overwritten by the next branch.    
 -When stucked in the terminal just press "q".  
 -In a feature branch just after "push" the branch, will get an "error" message, so copy the given command.  
 -PR = Pull request, that means a request to have the code pulled into another branch.  
+ 
     ~ git pull //To donwload the file with branch  
 -After merge a branch is likey that we don't use it so again, so delete it.
-~ git branch -D <name of the branch>
-~ git commit -am "message" //To add the changes of a modified files, doesn't work for new files
+ 
+    ~ git branch -D <name of the branch>
+    ~ git commit -am "message" //To add the changes of a modified files, doesn't work for new files
 
 ### Git merge conflict
 -Happens when we try to merge two branchs that have changes in the same line...  r
