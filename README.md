@@ -10,10 +10,12 @@
 -"commit" to save files in Git.  
 -"push" to upload Git commits.  
 -"pull" to download the changes in a local machine.  
--"ls - la" to list EVERY file or folder in the folder.  
-    ~ git status //To show files that have to be commited or add.
+    ```
+    ~ ls - la //To list EVERY file or folder in the folder.  
+    ~ git status //To show files that have to be commited or add.  
     ~ git add  //To track all files in the respective folder.  
-    ~git add <file name>  //To track an specific file.  
+    ~ git add <file name>  //To track an specific file.  
+    ```
 -Is necessary to "add" a file before commit it, because git needs to track the changes.  
     ~git commit -m "message" -m "descipition"  //To commit the files, and create the message and description about the changes, it only creates the commit and saves in the local machine. 
     ~ clear //To clear the bash terminal.  
