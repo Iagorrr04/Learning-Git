@@ -5,6 +5,7 @@
 -" " double space to break line.  
 -Add a line and a space above some text to create a "window".
 
+---
 
 ## Basic Git commands
 -"clone" to bring files to the local machine.  
@@ -24,6 +25,8 @@
     ~ cls //To clear the cmd terminal.  
     ~ clr //Also clear the cmd terminal.
 
+---
+
 ## SSH keys
 -ssh-keygen -t rsa -b 4096 -C "email", "-t" stands for the type of encryption, "-b" for the strengh, and after "-C" is necessary to enter the GitHUb email.  
 -"keyname.pub", is the public key, can be shared on github, the other key is private.  
@@ -31,12 +34,16 @@
 -Is also necessary to add a the ssh to the agent, and to the GitHub account.  
 -After the SSSHkey is set, run "git push origin main".
 
+---
+
 ## Creating a repository locally.
  
     ~ git init //To turn a normal folder in a repository for GitHub.  
     ~ git remote add origin <link> //To give the reference about the repository.
     ~ git remote -v //To show any remote repository that is connected.
 -After that and run the "git add" and "git commit", then we can finally run "git push orign master".  
+
+---
 
 ## Git Branching  
 -Master branch, is the main branch that contains the main version of the code.
@@ -63,11 +70,15 @@
     ~ git branch -D <name of the branch>
     ~ git commit -am "message" //To add the changes of a modified files, doesn't work for new files
 
-### Git merge conflict
+---
+
+## Git merge conflict
 -Happens when we try to merge two branchs that have changes in the same line...  r
 -If we try to merge two files in conflit the VS code will show us the conflict it self, then just fix it and then commit.  
-    
-### Undoing git
+
+--- 
+
+## Undoing git
 -Used to when you commit or add something acidentally, or get back the decision.  
  
     ~ git reset //To show the list of files that has been added but not commited.  
@@ -75,6 +86,8 @@
     ~ git log //To show all commit that have been made.  
     ~ git reset <hash of the commit> //To return to a specific commit.  
 
-### Fork
+---
+
+## Fork
 -Used to make a copy of some repository, so we can have full acess and make it as our own.
 -Then we can make or own commits, and make a pull request the "original" repository. 
