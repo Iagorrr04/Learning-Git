@@ -15,10 +15,10 @@
 -"git add ." to track all files in the respective folder.  
 -"git add <file name>"  to track an specific file.  
 -Is necessary to "add" a file before commit it, because git needs to track the changes.  
--"git commit -m "message" -m "descipition" " to commit the files, and create the message and description about the changes, it only creates the commit and saves in the local machine.  
-    ~ clr //Also clear the cmd terminal  
-    ~ clear //To clear the bash terminal  
-    ~ cls //To clear the cmd terminal  
+-"git commit -m "message" -m "descipition" " to commit the files, and create the message and description about the changes, it only creates the commit and saves in the local machine. 
+    ~ clr //Also clear the cmd terminal.
+    ~ clear //To clear the bash terminal.  
+    ~ cls //To clear the cmd terminal.  
 
 ## SSH keys
 -ssh-keygen -t rsa -b 4096 -C "email", "-t" stands for the type of encryption, "-b" for the strengh, and after "-C" is necessary to enter the GitHUb email.  
@@ -28,9 +28,9 @@
 -After the SSSHkey is set, run "git push origin main".
 
 ## Creating a repository locally.
-    ~ git init //To turn a normal folder in a repository for GitHub.  
-    ~ git remote add origin <link> //To give the reference about the repository.
-    ~ git remote -v //To show any remote repository that is connected.
+     git init //To turn a normal folder in a repository for GitHub.  
+     git remote add origin <link> //To give the reference about the repository.
+     git remote -v //To show any remote repository that is connected.
 -After that and run the "git add" and "git commit", then we can finally run "git push orign master".  
 
 ## Git Branching  
