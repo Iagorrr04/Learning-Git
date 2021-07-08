@@ -14,13 +14,13 @@
 - "add" to track the changes.  
 - "commit" to save files in Git.  
 - "push" to upload Git commits.  
-- "pull" to download the changes in a local machine.
+- "pull" to download the changes in a local machine. -
  
-
-    ~ ls - la //To list EVERY file or folder in the folder.
-    ~ git status //To show files that have to be commited or add.
-    ~ git add  //To track all files in the respective folder.
-    ~ git add <file name>  //To track an specific file.
+  
+    ~ ls - la //To list EVERY file or folder in the folder.  
+    ~ git status //To show files that have to be commited or add.  
+    ~ git add  //To track all files in the respective folder.  
+    ~ git add <file name>  //To track an specific file.  
 - Is necessary to "add" a file before commit it, because git needs to track the changes.  
  
 
@@ -91,7 +91,7 @@
 ## Undoing git
 - Used to when you commit or add something acidentally, or get back the decision.  
  
- 
+
     ~ git reset //To show the list of files that has been added but not commited.  
     ~ git reset HEAD~1 //HEAD points to the last commit HEAD~1 points to the penultimate commit, this command line unstage and uncommit the changes.  
     ~ git log //To show all commit that have been made.  
