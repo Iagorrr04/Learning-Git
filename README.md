@@ -58,6 +58,7 @@
 - Hot fix branch, just like a feature branch but with a single commit.  
 ``` 
     $ git branch //To see the current branchs.
+    $ git branch -M "main" //To change the master branch name to main.
 ```  
 - The "*" indicates the current branch that you are working.  
 ``` 
