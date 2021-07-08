@@ -2,7 +2,7 @@
 
 ## MD formatation.
 -"#" for a main title.  
--" " double space to break line.
+-" " double space to break line.  
 -Add a line and a space above some text to create a "window".
 
 
@@ -21,8 +21,8 @@
  
     ~git commit -m "message" -m "descipition"  //To commit the files, and create the message and description about the changes, it only creates the commit and saves in the local machine. 
     ~ clear //To clear the bash terminal.  
-    ~ clr //Also clear the cmd terminal.
     ~ cls //To clear the cmd terminal.  
+    ~ clr //Also clear the cmd terminal.
 
 ## SSH keys
 -ssh-keygen -t rsa -b 4096 -C "email", "-t" stands for the type of encryption, "-b" for the strengh, and after "-C" is necessary to enter the GitHUb email.  
@@ -69,10 +69,11 @@
     
 ### Undoing git
 -Used to when you commit or add something acidentally, or get back the decision.  
-    ~ git reset //To show the list of files that has been added but not commited.
+ 
+    ~ git reset //To show the list of files that has been added but not commited.  
     ~ git reset HEAD~1 //HEAD points to the last commit HEAD~1 points to the penultimate commit, this command line unstage and uncommit the changes.  
-    ~ git log //To show all commit that have been made.
-    ~ git reset <hash of the commit> //To return to a specific commit.
+    ~ git log //To show all commit that have been made.  
+    ~ git reset <hash of the commit> //To return to a specific commit.  
 
 ### Fork
 -Used to make a copy of some repository, so we can have full acess and make it as our own.
