@@ -28,15 +28,15 @@
 -After the SSSHkey is set, run "git push origin main".
 
 ## Creating a repository locally.
-     git init //To turn a normal folder in a repository for GitHub.  
-     git remote add origin <link> //To give the reference about the repository.
-     git remote -v //To show any remote repository that is connected.
+    ~ git init //To turn a normal folder in a repository for GitHub.  
+    ~ git remote add origin <link> //To give the reference about the repository.
+    ~ git remote -v //To show any remote repository that is connected.
 -After that and run the "git add" and "git commit", then we can finally run "git push orign master".  
 
 ## Git Branching  
 -Master branch, is the main branch that contains the main version of the code.
 -Feature branch, are useful to work with a group.  
--Hot fix branch, just like a feature branch but with a single commit. 
+-Hot fix branch, just like a feature branch but with a single commit.  
     ~ git branch //To see the current branchs  
 -The "*" indicates the current branch that you are working.  
     ~ git checkout <branch name>//To switch between branchs.  
