@@ -30,6 +30,7 @@
     $ cls //To clear the cmd terminal.  
     $ clr //Also clear the cmd terminal.
 ```
+- [git -commit domumentation](https://git-scm.com/docs/git-commit)
   
 ---
 
