@@ -80,7 +80,8 @@
 ```
 - After merge a branch is likey that we don't use it so again, so delete it.
 ```
-    $ git branch -D <name of the branch> //To delete a branch.
+    $ git branch -D <name of the branch> //To delete a branch local.
+    4 git push origin --delete <name of the branch> //To delete a brach remote.
     $ git commit -am "message" //To add the changes of a modified files, doesn't work for new files.
 ```
 
