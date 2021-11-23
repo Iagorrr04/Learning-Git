@@ -112,17 +112,17 @@
 - To avoid enter the name and password all the time is easier to set a SSH key in the new machine.
 - Run the following commands in the terminal to generate a new SSH key.
 
-    $ ssh-keygen -t ed25519-sk -C "your_email@example.com"
+        $ ssh-keygen -t ed25519-sk -C "your_email@example.com"
 
 - The following message will appears, so just press enter to save with the default name.
     
-    Generating public/private ed25519 key pair.
-    Enter file in which to save the key (/home/user_name/.ssh/id_ed25519): [enter]
+        Generating public/private ed25519 key pair.
+        Enter file in which to save the key (/home/user_name/.ssh/id_ed25519): [enter]
 
 - To avoid enter the passpharse every time just press enter to the following two lines.
 
-    Enter passphrase (empty for no passphrase): [enter]
-    Enter same passphrase again: [enter]
+        Enter passphrase (empty for no passphrase): [enter]
+        Enter same passphrase again: [enter]
 
 - A SSH key is now generated and stored in your machine, now just need to add the new ssh to your account, to run view the SSH key code run the following command.
 
