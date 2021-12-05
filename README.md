@@ -129,3 +129,16 @@
         cat ~/.ssh/id_ed25519.pub
 
 - The nex time you try to push some commit git you look for the SSH and authorize your machine.
+
+## Ignoring previously commited file
+- Run these commands to:
+        1. Create the .gitignore file
+        2. Add the file name into the .gitignore
+        3. Remove the file from the repo. (will keep in your local machine files)
+        4. Commit and save changes.
+        
+        touch .gitignore
+        echo filename.txt >> .gitignore
+        # Add the '-r' if is a entire folder to be ignorated.
+        git rm -r --cached filename.txt
+        git commit -m"ignoring filename.txt"
